@@ -1,0 +1,7 @@
+amigo 62 63
+água 8
+brasil 17 26 45 54 65 69
+c-3po 70
+em 6 10 19 43
+guarda-chuva 1 49 53
+pátria 7 13 27 29 51 66 68
