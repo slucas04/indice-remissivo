@@ -9,7 +9,7 @@ Este projeto implementa um sistema de indexação de palavras-chave em um texto,
 
 O programa identifica as palavras-chave presentes no texto, registra as linhas onde aparecem e exporta o índice gerado para um arquivo de saída (`saida.txt`).
 
-## Estrutura do Projeto
+## Estrutura do projeto
 
 - **Tabela Hash:** Estrutura principal que contém árvores AVL, onde cada posição representa uma letra inicial das palavras.
 - **Árvore AVL:** Estrutura balanceada que organiza as palavras-chave e as linhas em que aparecem no texto.
@@ -21,23 +21,23 @@ O programa identifica as palavras-chave presentes no texto, registra as linhas o
    - Lê as palavras-chave de `palavra-chave.txt` e as insere na tabela hash.
    - Lê o texto de `texto.txt` e verifica se as palavras correspondem às palavras-chave.
 
-2. **Normalização e Tratamento:**
+2. **Normalização e tratamento:**
    - Remove caracteres não alfanuméricos e converte caracteres acentuados para formas sem acento.
 
 3. **Armazenamento:**
    - Insere as palavras-chave em árvores AVL balanceadas.
    - Armazena as linhas do texto onde as palavras-chave aparecem.
 
-4. **Exportação de Dados:**
+4. **Exportação de dados:**
    - Gera um arquivo `saida.txt` com a lista de palavras-chave e as linhas correspondentes em ordem alfabética.
 
-## Estrutura de Arquivos
+## Estrutura de arquivos
 
 - `src/palavra-chave.txt`: Arquivo com palavras-chave, uma por linha.
 - `src/texto.txt`: Arquivo com o texto analisado, com palavras separadas por espaços.
 - `src/saida.txt`: Arquivo gerado com o índice de palavras e as linhas em que aparecem.
 
-## Como Executar
+## Como executar
 
 1. **Preparação dos Arquivos:**
    - Insira `palavra-chave.txt` e `texto.txt` no diretório `src`.
@@ -48,7 +48,7 @@ O programa identifica as palavras-chave presentes no texto, registra as linhas o
 2. **Saída:**
    - O arquivo `saida.txt` será gerado no diretório `src` com as palavras-chave e as linhas em que aparecem.
 
-## Exemplo de Saída
+## Exemplo de saída
 
 Se `palavra-chave.txt` contiver:
 exemplo projeto java
@@ -60,7 +60,7 @@ O arquivo `saida.txt` gerado será:
 exemplo [1, 2] java [2, 3] projeto [1, 3]
 
 
-## Classes e Métodos Principais
+## Classes e métodos principais
 
 1. **Main**
    - `readFile(String path, Charset encoding)`: Lê os arquivos e retorna uma lista de strings.
