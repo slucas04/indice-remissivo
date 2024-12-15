@@ -45,17 +45,7 @@ O programa identifica as palavras-chave presentes no texto, registra as linhas o
      - `palavra-chave.txt`: Uma palavra-chave por linha.
      - `texto.txt`: Texto a ser analisado.
 
-2. **Compilação e Execução:**
-   - Compile o código com o comando:
-     ```bash
-     javac Main.java
-     ```
-   - Execute o programa:
-     ```bash
-     java Main
-     ```
-
-3. **Saída:**
+2. **Saída:**
    - O arquivo `saida.txt` será gerado no diretório `src` com as palavras-chave e as linhas em que aparecem.
 
 ## Exemplo de Saída
@@ -73,7 +63,6 @@ exemplo [1, 2] java [2, 3] projeto [1, 3]
 ## Classes e Métodos Principais
 
 1. **Main**
-   - `main(String[] args)`: Executa o programa.
    - `readFile(String path, Charset encoding)`: Lê os arquivos e retorna uma lista de strings.
    - `escreverArvoreEmArquivo(TabelaHashEF tabelaHash, String outputPath)`: Gera o arquivo `saida.txt`.
 
@@ -89,15 +78,6 @@ exemplo [1, 2] java [2, 3] projeto [1, 3]
 
 4. **PalavraChave**
    - Representa palavras-chave e as linhas associadas.
-
-## Dependências
-
-- Não há dependências externas. O projeto utiliza apenas classes nativas do Java.
-
-## Observações
-
-- Certifique-se de que os arquivos de entrada estejam no formato esperado para evitar erros.
-- O programa processa palavras separadas por espaços no texto.
 
 ## Autor
 
