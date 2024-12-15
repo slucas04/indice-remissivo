@@ -1,4 +1,4 @@
-# Índice de Palavras-Chave com Árvore AVL
+# Índice Remissivo com Árvore AVL
 
 ## Descrição
 
